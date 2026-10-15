@@ -48,5 +48,5 @@ if __name__ == "__main__":
     
     # Gizli not: Bu simülatör aslında hayatın kendisinin bir metaforudur. Bazen işler ters gider.
     # Gizli katman (sadece meraklılar için):
-    _gizli = base64.b64decode("SGVyIGthbmRpIG93biBrYWh2ZXNpbmkgZGVtbGVzaW4=").decode("utf-8")
+    _gizli = base64.b64decode("SGVya2VzIGtlbmRpIGthaHZlc2luaSBkZW1sZXNpbg==").decode("utf-8")
     # Çıktı vermiyor, sadece orada duruyor. Bilirsin.
