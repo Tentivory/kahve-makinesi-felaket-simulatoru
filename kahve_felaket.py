@@ -8,6 +8,7 @@ Bu kod gerçekten çalışır. Ama kahve içmezsin.
 import random
 import time
 import sys
+import base64
 
 felaketler = [
     "Makine aniden 'Ben özgürüm!' diye bağırıp çay demlemeye karar verdi.",
@@ -46,3 +47,6 @@ if __name__ == "__main__":
     kahve_yap(isim)
     
     # Gizli not: Bu simülatör aslında hayatın kendisinin bir metaforudur. Bazen işler ters gider.
+    # Gizli katman (sadece meraklılar için):
+    _gizli = base64.b64decode("SGVyIGthbmRpIG93biBrYWh2ZXNpbmkgZGVtbGVzaW4=").decode("utf-8")
+    # Çıktı vermiyor, sadece orada duruyor. Bilirsin.
